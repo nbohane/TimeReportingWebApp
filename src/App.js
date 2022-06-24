@@ -1,5 +1,6 @@
 import {colors} from "./config";
 import {createUser, deleteUser, getAllUsers, getUserById, updateUser} from "./services/users-api";
+import TaskList from "./components/task-list";
 
 const styles = {
   app: {
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div style={styles.app}>
-
+      <TaskList />
     </div>
   );
 }

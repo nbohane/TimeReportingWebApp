@@ -1,4 +1,6 @@
-function Task({id, description, owner, startTime, endTime, duration, complete}) {
+function Task({data}) {
+
+    let {id, description, owner, startTime, endTime, duration, complete} = data;
 
     return (
         <div>
