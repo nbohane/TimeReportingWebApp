@@ -1,8 +1,9 @@
-//create user
+
 import axios from "axios";
 
 const serverUrl = 'http://10.0.0.109:8080/users';
 
+//create user
 export const createUser = (data) => {
     return axios.post(serverUrl, data);
 }
